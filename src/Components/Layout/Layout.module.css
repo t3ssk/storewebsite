@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&family=Shippori+Mincho+B1:wght@400;500;800&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a:link, a:visited {
+    color: #1E555C;
+    text-decoration: none;
+    display: inline;
+}
+
+ a:hover,  a:active{
+     color: #686963;
+}
+
+body{
+    background-color: #E5E5E5;
+    color: #3A2E39;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+body, input, button {
+ font-size: 18px;
+}
+
+button {
+ cursor: pointer;
+}

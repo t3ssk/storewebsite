@@ -1,0 +1,30 @@
+.Navbar ul{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(244,216,205);
+    background: linear-gradient(180deg, #e2e1e1 0%, rgba(0,0,0,0) 100%);
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10;
+}
+.Navbar li{
+    list-style-type: none;
+    padding: 0 20px;
+}
+.Navbar a:link, .Navbar a:visited {
+    color: #1E555C;
+    text-decoration: none;
+}
+
+.Navbar a:hover, .Navbar a:active{
+     color: #fff;
+}
